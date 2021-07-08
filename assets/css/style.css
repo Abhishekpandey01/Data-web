@@ -1,0 +1,151 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+section#header {
+    background: #0C0F38;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+li {
+    margin-right: 50px;
+    margin-top: 18px;
+    list-style-type: none;
+    color: #fff;
+}
+h1.site-name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 18px;
+    color: #fff;
+}
+section.banner-section {
+    background: #0C0F38;
+    padding:30px 0px 80px 0px ;
+   
+}
+h1.landing-text {
+    color: yellow;
+}
+h1.text-white {
+    font-size: 60px;
+    font-weight: bold;
+}
+p.text-white {
+    line-height: 30px;
+    font-size: 16px;
+}
+button {
+    padding: 8px 25px 8px 25px;
+}
+h1.content-heading {
+    font-weight: bold;
+    color: #0C0F38;
+    font-size: 40px;
+}
+section.content-sec {
+    padding: 50px 0px 50px 0px;
+}
+p.content-text.mt-4 {
+    color: #292f80;
+}
+button.content-button {
+    background: #000;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+section.service-section {
+    background: #0C0F38;
+    padding: 30px 0px 30px 0px;
+}
+p.service-text{
+    color: #d0caca;
+    line-height: 24px;
+}
+.icon {
+    background: #fff;
+}
+img.img-fluid.shared-icon {
+    width: 30%;
+}
+.icon.text-center {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+img.img-fluid.shared-icon {
+    width: 66%;
+    margin-top: 16px;
+}
+
+h1.icon-heading.text-white {
+    font-size: 25px;
+}
+.services.justify-content-center {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 36px;
+}
+p.service-text{
+    color: #d0caca;
+}
+button.content-button-two {
+    background: #fff;
+    color: #000;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid;
+}
+.inner-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.inner-heading{
+    font-size: 25px;
+    text-align: center;
+}
+.inner-sec {
+    padding: 24px;
+   
+    box-shadow: 0px 0px 3px;
+    border-radius: 15px;
+}
+section.service-inner {
+    padding-top: 60px;
+    padding-bottom: 208px;
+}
+
+input#fname {
+    width: 80%;
+    padding: 10px;
+    border-radius: 7px;
+}
+input#Email {
+    width: 80%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+textarea#textarea {
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.contact-form {
+    background: #0C0F38;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: -156px;
+}
+section.contact-us {
+    background: #0C0F38;
+}
+
+button.submit-button {
+    padding: 6px 45px 6px 45px;
+    border-radius: 27px;
+    border:none;
+    color: #ca7b89;
+}
