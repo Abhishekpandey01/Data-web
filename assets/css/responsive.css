@@ -5,15 +5,7 @@
     h1.site-name {
         color: #000;
     }
-    input#fname {
-        width: 100%;
-    }
-    input#Email {
-        width: 100%;
-    }
-    textarea#textarea {
-        width: 100%;
-    }
+   
     section#header {
         padding: 0px;
     }
@@ -34,21 +26,11 @@
     h1.icon-heading.text-white {
         font-size: 22px;
     }
-    input#fname {
-        width: 100%;
-    }
-    input#Email {
-        width: 100%;
-    }
+   
 }
 
 @media (min-width: 1024px) and (max-width:1200px){
-    input#fname {
-        width: 100%;
-    }
-    input#Email {
-        width: 100%;
-    }
+
     h1.icon-heading.text-white {
         font-size: 22px;
     }

@@ -119,12 +119,12 @@ section.service-inner {
 }
 
 input#fname {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     border-radius: 7px;
 }
 input#Email {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     border-radius: 7px;
     margin-top: 20px;
@@ -132,6 +132,7 @@ input#Email {
 textarea#textarea {
     margin-top: 20px;
     border-radius: 7px;
+    width: 100%;
 }
 .contact-form {
     background: #0C0F38;
@@ -148,4 +149,7 @@ button.submit-button {
     border-radius: 27px;
     border:none;
     color: #ca7b89;
+}
+li.active {
+    color: yellow;
 }
