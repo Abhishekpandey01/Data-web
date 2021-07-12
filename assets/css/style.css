@@ -1,13 +1,22 @@
 body {
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
+
+/* Header */
 section#header {
     background: #0C0F38;
     padding-top: 25px;
     padding-bottom: 22px;
 }
 
-li {
+li.active {
+    color: yellow;
+    margin-top: 18px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.li-item {
     margin-right: 50px;
     margin-top: 18px;
     list-style-type: none;
@@ -19,6 +28,11 @@ h1.site-name {
     margin-top: 18px;
     color: #fff;
 }
+/* End Header */
+
+
+/* Banner section */
+
 section.banner-section {
     background: #0C0F38;
     padding:30px 0px 80px 0px ;
@@ -38,6 +52,11 @@ p.text-white {
 button {
     padding: 8px 25px 8px 25px;
 }
+/* End banner-sec */
+
+
+/* Content-section */
+
 h1.content-heading {
     font-weight: bold;
     color: #0C0F38;
@@ -55,6 +74,12 @@ button.content-button {
     padding-left: 45px;
     padding-right: 45px;
 }
+/* End content-section */
+
+
+
+
+/* Service-section */
 section.service-section {
     background: #0C0F38;
     padding: 30px 0px 30px 0px;
@@ -98,6 +123,10 @@ button.content-button-two {
     padding-right: 45px;
     border: 1px solid;
 }
+/* End service-section */
+
+
+/* Service-inner-section */
 .inner-icon {
     width: 100px;
     height: 100px;
@@ -109,15 +138,20 @@ button.content-button-two {
 }
 .inner-sec {
     padding: 24px;
-   
+
     box-shadow: 0px 0px 3px;
     border-radius: 15px;
 }
+
 section.service-inner {
     padding-top: 60px;
     padding-bottom: 208px;
 }
+/* End service-inner */
 
+
+
+/* Contact-us-section */
 input#fname {
     width: 100%;
     padding: 10px;
@@ -150,6 +184,4 @@ button.submit-button {
     border:none;
     color: #ca7b89;
 }
-li.active {
-    color: yellow;
-}
+/* End contact--us-sction */
