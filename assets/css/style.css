@@ -1,8 +1,31 @@
-body {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+/* Fonts */
+
+@font-face {
+    font-family: "Circular-Regular";
+    src: url("../fonts/Airbnb_Cereal-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Circular-Bold";
+    src: url("../fonts/Airbnb_Cereal-Book.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Circular-Medium";
+    src: url("../fonts/Airbnb_Cereal-Medium.woff") format("woff");
+}
+
+
 /* Header */
+
+section#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 section#header {
     background: #0C0F38;
     padding-top: 25px;
