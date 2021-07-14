@@ -5,7 +5,9 @@
     h1.site-name {
         color: #000;
     }
-   
+    section#header {
+        background: #fff;
+    }
     section#header {
         padding: 0px;
     }

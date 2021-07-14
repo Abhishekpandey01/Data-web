@@ -42,7 +42,8 @@ section#header {
 
 .nav-item {
     margin-right: 40px;
-   margin-top: 10px;
+    margin-top: 10px;
+    font-weight: bold;        
     list-style-type: none;
     color: #fff;
     font-family: "Circular-Bold", sans-serif;
@@ -55,7 +56,7 @@ h1.site-name {
     font-family: "Circular-Medium", sans-serif;                                 
 }
 /* End Header */
-           
+                                                            
                             
 /* Banner section */
 
